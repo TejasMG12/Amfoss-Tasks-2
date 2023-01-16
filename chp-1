@@ -1,0 +1,44 @@
+Q1.
+a) * :- mathmatical operator to multiply to numeric values
+b)'hello'  :- value; string datatype
+c) -88.8 :- value; float datatype
+e) -  :- operator; gives difference between two values
+f) /  :- operator; divides first value by second
+g) +  :- operator; adds to numeric values and also concatenates to string values
+h)5 :- value; integer datatype
+
+Q2.
+ spam is the variable and 'spam' is the string.
+
+Q3.
+Integers, Floating point numbers, String.
+
+Q4.
+ Expression are made up of values and operator.
+ Expressions give a single value as a result.
+
+Q5.
+ Expression are made up of values and operator.Expressions give a single value as a result.
+ A statement does does not give result.
+
+Q6.
+ Variable bacon still contains value 20 as no new value is assigned to bacon.
+
+Q7.
+ Both the results to 'spamspamspam'.
+ 
+Q8.
+  100 cannot be a variable name because variable names cannot be numbers or start with number.
+  Where as eggs can be a variable name.
+  
+Q9.
+ int ; float ; str 
+ These are the functions which can be used to get the integer, floating-point number,
+ or string version of a value.
+ 
+Q10.
+ Since integers or float values cannot be concatanate with string this expression will give an error.
+ we can fix it by writing:
+   'I have eaten ' + '99' + ' burritos.'   or
+   'I have eaten ' + str(99) + ' burritos.'
+   

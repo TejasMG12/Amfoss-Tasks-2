@@ -1,0 +1,45 @@
+Q1.
+ The two types of Boolean datatypes are True and False, written same as True and False.
+ 
+Q2.
+ and ; or ; not 
+
+Q3.
+Truth table of and operator
+| 1st value | 2nd value | result |
+| :-:   | :-: | :-:|
+| True | True | True |
+| True | False | False |
+| False | True | False |
+| False | False | False |
+
+Truth table of or operator
+| 1st value | 2nd value | result |
+| :-:   | :-: | :-:|
+| True | True | True |
+| True | False | True |
+| False | True | True |
+| False | False | False |
+
+Truth table of not operator
+ not True: False
+ not False: True
+
+Q4.
+ False ; False ; True ; False ; False ; True
+
+Q5.
+ == :- Gives true if both values are equal
+ != :- Gives true if both values are not equal
+ > :- Gives true if first value is greater than second
+ < :- Gives true if first value is smaller than second
+ >= :- Gives true if first value is greater than or equal to second 
+ <= :- Gives true if first value is smaller than or equal tp second
+
+Q6.
+ "==":equal to operator gives True when two values are equal, whereas "=" assignment operator assigns a value to a variable.
+ 
+Q7.
+ A condition evaluates to a True or False value. Based on conditions flow control is decided.
+
+Q8.
