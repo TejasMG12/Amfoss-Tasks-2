@@ -43,3 +43,45 @@ Q7.
  A condition evaluates to a True or False value. Based on conditions flow control is decided.
 
 Q8.
+spam = 0
+if spam == 10:
+    print('eggs')		--> First block
+    if spam > 5:
+        print('bacon')		--> Second block
+    else:
+        print('ham')		--> Third block
+    print('spam')
+print('spam')
+
+Q9.
+
+if spam== 1:
+    print("Hello")
+elif spam==2:
+    print("Howdy")
+else :
+    print("Greetings !")
+
+Q10.
+ ctrl + C
+
+Q11.
+ break keyword ends the loop, whereas continue keyword skips to the start of the loop and runs the remaining loop.
+
+Q12.
+ All of these does the same thing. 
+ range(10) ranges 0-9.
+ range(0,10) range starts from 0 and goes upto 9.
+ range(0,10,1) range starts from 0, goes upto 9 and the step is 1 i.e value increases by 1.
+Q13.
+ A) for loop:
+ for i in range (1,11):
+ 	print(i)
+ B) while loop:
+ i=1
+ while i<=10:
+ 	print(i)
+ 	i+=1
+ 
+Q14.
+ spam.bacon()  
