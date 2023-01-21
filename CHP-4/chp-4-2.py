@@ -16,4 +16,4 @@ def lst():
     return ans
 for i in range (10000):
     fns += lst()
-print(fns)
+print("percentage of streaks %s%%"%(fns/100))
