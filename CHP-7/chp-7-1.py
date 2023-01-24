@@ -7,10 +7,10 @@ def checkdate(date):
     day=int(dt.group(1))
     mnt=int(dt.group(2))
     year=int(dt.group(3))
-    if (mnt==4 or mnt==6 or mnt==9 or mnt==11)and (day)>0 and (day)<=30:
+    if mnt in [4,6,9,11]and (day)>0 and (day)<=30:
         print(dt.group(),";its a valid date")
         return True
-    elif (mnt==1 or mnt==3 or mnt==5 or mnt==12 or mnt==7 or mnt==8 or mnt==10 )and (day)>0 and (day)<=31:
+    elif mnt in [1,3,5,12,7,8,10]and (day)>0 and (day)<=31:
         print(dt.group(),";its a valid date")
         return True
     elif mnt==2:
