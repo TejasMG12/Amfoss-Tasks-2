@@ -1,9 +1,17 @@
 #from pathlib import Path
-f1=open('chp9text')
-print(f1.read())
-f1=open('chp9text')
+pth=input("Enter path of file").strip("'\"")
+while True:
+    
+    try:
+        f1=open(pth)
+        print(f1.read())
+        break
+    except IsADirectoryError:
+        pth=input("Enter path of file").strip("'\"")
+f1=open(pth)
 
 ls=(f1.read()).split('\n')
+f1.close()
 for i,e in enumerate(ls):
     ls[i]=ls[i].split(' ')
 
@@ -22,3 +30,4 @@ for e in ls:
     for ele in e:
         print(ele,end=' ')
     print()
+f1.close()
